@@ -1,0 +1,13 @@
+#-------------------------------------------------------------------------------#
+#               Qodana analysis is configured by qodana.yaml file               #
+#             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
+#-------------------------------------------------------------------------------#
+version: "1.0"
+
+profile:
+  name: qodana.starter
+
+linter: jetbrains/qodana-dotnet:latest
+
+dotnet:
+  solution: Quartz.sln
